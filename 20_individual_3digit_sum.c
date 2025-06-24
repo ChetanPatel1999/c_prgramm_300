@@ -4,7 +4,7 @@ void main()
 {
     int num, r, s, t, sum;
     printf("enter a num : ");
-    scanf("%d", &num);
+    scanf("%d", &num); // 567
 
     r = num / 100;
     s = (num % 100) / 10;
