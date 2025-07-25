@@ -4,7 +4,7 @@ void main()
 {
     int num, rem, sum = 0;
     printf("enter a num : ");
-    scanf("%d", &num); // 34532
+    scanf("%d", &num); // 345
     while (num > 0)
     {
         rem = num % 10;

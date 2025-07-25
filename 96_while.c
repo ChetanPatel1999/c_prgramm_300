@@ -4,11 +4,11 @@ void main()
 {
     int num,sum = 0;
     printf("enter a num : ");
-    scanf("%d", &num); // 576
+    scanf("%d", &num); // 23
     while (num > 0)
     {
         sum++;
         num = num / 10;
     }
-    printf(" digit count in number =  %d", sum);
+    printf("digit count in number =  %d", sum);
 }

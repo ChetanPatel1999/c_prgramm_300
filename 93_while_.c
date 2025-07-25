@@ -4,7 +4,7 @@ void main()
 {
     int num, rem;
     printf("enter a num : ");
-    scanf("%d", &num);
+    scanf("%d", &num);//567
     while (num > 0)
     {
         rem = num % 10;
