@@ -1,5 +1,5 @@
 // while loop example
-//its run infinite time
+//its run infinite time        
 #include <stdio.h>
 void main()
 {

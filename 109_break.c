@@ -2,6 +2,7 @@
 #include <stdio.h>
 void main()
 {
+    printf("%d\n", -123 / 10);
     int d, n, rem, f = 0;
     printf("enter number : ");
     scanf("%d", &n); // 5646745
