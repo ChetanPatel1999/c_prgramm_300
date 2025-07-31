@@ -5,7 +5,7 @@ void main()
     int i = 1;
 lab:
     printf("%d\n", i);
-    i++; // 6
+    i++; 
     if (i <= 10)
     {
         goto lab;
