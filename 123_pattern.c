@@ -2,12 +2,12 @@
 void main()
 {
     int i, j;
-    for (i = 1; i <= 5; i++)
+    for (i = 1; i <= 5; i++)//3
     {
-        for (j = 1; j <= i; j++)
+        for (j = 1; j <= i; j++)//1
         {
-            printf("%d ", j);
-        }
-        printf("\n");
+            printf("%d ", j);//1 
+        }                    //1 2  
+        printf("\n");        //1 2 3
     }
 }
