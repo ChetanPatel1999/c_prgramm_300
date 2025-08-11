@@ -20,11 +20,46 @@ void cube(int n)
     c = n * n * n;
     printf("cube of %d = %d\n", n, c);
 }
+void greatest(int a, int b)
+{
+    if (a > b)
+    {
+        printf("greatest num : %d", a);
+    }
+    else
+    {
+        printf("greatest num : %d", b);
+    }
+}
+void factorial(int num) // 5
+{
+    int fact = 1, i;
+    for (i = 1; i <= num; i++)
+    {
+        fact = fact * i;
+    }
+    printf("factorial of %d = %d\n", num, fact);
+}
+void range(int s, int e)
+{
+    int i;
+    for (i = s; i <= e; i++)
+    {
+        factorial(i);
+    }
+}
 void main()
 {
-    add(12, 7);
-    add(12, 10);
-    add(4, 9);
-    cube(3);
-    table(9);
+    // int x = 100, y = 200;
+    // add(x, y);
+    // add(12, 7);
+    // add(12, 10);
+    // add(4, 9);
+    // cube(3);
+    // table(9);
+    // greatest(66, 13);
+    // factorial(5);
+    range(1, 5);
+    printf("--------------------\n");
+    range(3, 8);
 }
