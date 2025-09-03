@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "51_if_else.C": "cpp"
+        "51_if_else.C": "cpp",
+        "string.h": "c"
     }
 }
