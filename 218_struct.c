@@ -10,6 +10,7 @@ struct pen
 void main()
 {
     struct pen p1, p2, p3 = {"cello", 10, 4.1};
+    printf("size of pen = %d\n", sizeof(p1));
     strcpy(p1.name, "parker");
     p1.price = 5;
     p1.rating = 4.3;

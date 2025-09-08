@@ -19,8 +19,21 @@ void main()
     printf("enter pen rating : ");
     scanf("%f", &p1.rating);
 
+    printf("enter pen info : \n");
+    printf("enter pen name : ");
+    scanf("%s", p2.name);
+    printf("enter pen price : ");
+    scanf("%d", &p2.price);
+    printf("enter pen rating : ");
+    scanf("%f", &p2.rating);
+
     printf("pen info :- \n");
     printf("pen name : %s\n", p1.name);
     printf("pen price : %d\n", p1.price);
     printf("pen rating : %.1f\n", p1.rating);
+
+    printf("pen info :- \n");
+    printf("pen name : %s\n", p2.name);
+    printf("pen price : %d\n", p2.price);
+    printf("pen rating : %.1f\n", p2.rating);
 }
