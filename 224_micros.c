@@ -1,5 +1,5 @@
 // micros :- its used to change predefined functio name or
-//  use to given name to some value.
+// use to given name to some value.
 #include <stdio.h>
 #define size 15
 #define display printf
