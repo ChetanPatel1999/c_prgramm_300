@@ -2,6 +2,7 @@
     "files.associations": {
         "stdio.h": "c",
         "51_if_else.C": "cpp",
-        "string.h": "c"
+        "string.h": "c",
+        "231)FILE.C": "cpp"
     }
 }
